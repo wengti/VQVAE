@@ -1,0 +1,6 @@
+*.csv
+*.zip
+__pycache__
+colour_20_codebook_size_8_latent_dim
+data
+no_colour_5_codebook_size_2_latent_dim
