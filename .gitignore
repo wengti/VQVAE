@@ -1,0 +1,6 @@
+*.csv
+*.zip
+__pycache__
+data
+no_colour_5_cb_2_lat
+color_20_cb_8_lat

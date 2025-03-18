@@ -1,0 +1,23 @@
+input_channels: 3
+
+enc_conv_channels: [3, 16, 32, 8, 8]
+enc_conv_kernel_size: [3, 3, 3, 2]
+enc_conv_stride: [2, 2, 1, 1]
+enc_conv_act: 'leaky'
+
+dec_tconv_channels: [8, 8, 32, 16, 3]
+dec_tconv_kernel_size: [3, 4, 4, 4]
+dec_tconv_stride: [1, 2, 1, 1]
+dec_tconv_act: 'leaky'
+
+codebook_size: 20
+latent_dim: 8
+
+recon_loss_weight: 5
+codebook_loss_weight: 1
+commitment_loss_weight: 0.2
+
+batch_size: 32
+learning_rate: 0.001
+epochs: 20
+task_name: 'color_20_cb_8_lat'

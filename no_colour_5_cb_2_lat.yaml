@@ -1,0 +1,23 @@
+input_channels: 1
+
+enc_conv_channels: [1, 16, 32, 8, 4]
+enc_conv_kernel_size: [3, 3, 3, 2]
+enc_conv_stride: [2, 2, 1, 1]
+enc_conv_act: 'leaky'
+
+dec_tconv_channels: [4, 8, 32, 16, 1]
+dec_tconv_kernel_size: [3, 4, 4, 4]
+dec_tconv_stride: [1, 2, 1, 1]
+dec_tconv_act: 'leaky'
+
+codebook_size: 5
+latent_dim: 2
+
+recon_loss_weight: 1
+codebook_loss_weight: 1
+commitment_loss_weight: 0.2
+
+batch_size: 32
+learning_rate: 0.001
+epochs: 10
+task_name: 'no_colour_5_cb_2_lat'
