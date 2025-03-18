@@ -13,7 +13,7 @@ The code has been rewritten from scratch while maintaining the core concepts and
 ## Description of Files:
 - **extract_mnist.py** - Extracts MNIST data from CSV files.
 - **load_data.py** - Create a custom dataset.
-- **model.py** - Compatible with .yaml config giles to create various VQVAE models.
+- **model.py** - Compatible with .yaml config files to create various VQVAE models.
 - **engine.py** - Defines the train and test steps (for 1 epoch).
 - **main.py** - Trains a VQVAE.
 - **infer.py**
