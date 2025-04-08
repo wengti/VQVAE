@@ -1,6 +1,6 @@
 # Vector-Quantized Variational AutoEncoder (VQVAE)
 
-## Credits & Acknoledgements
+## Credits & Acknowledgements
 This project is a reimplementaion of [VQVAE-PyTorch] by [explainingai-code] (https://github.com/explainingai-code/VQVAE-Pytorch)
 The code has been rewritten from scratch while maintaining the core concepts and functionalities of the original implementation.
 
